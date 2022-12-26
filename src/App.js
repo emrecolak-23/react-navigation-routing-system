@@ -4,19 +4,19 @@ function App() {
   return (
     <div>
       <div>
-        <Button />
+        <Button>Click Here!</Button>
       </div>
       <div>
-        <Button />
+        <Button>Buy Now!</Button>
       </div>
       <div>
-        <Button />
+        <Button>Sea Deal!</Button>
       </div>
       <div>
-        <Button />
+        <Button>Hide Adds!</Button>
       </div>
       <div>
-        <Button />
+        <Button>Something!</Button>
       </div>
     </div>
   );
