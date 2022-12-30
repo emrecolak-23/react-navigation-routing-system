@@ -5,11 +5,10 @@ function Accordion({ items }) {
 
   const renderedItems = items.map((item, index) => {
     const isExpanded = expandedIndex === index;
-
     return (
       <div key={item.id}>
         <div>{item.label}</div>
-        <div>{item.content}</div>
+        {isExpanded && <div>{item.content}</div>}
       </div>
     );
   });
